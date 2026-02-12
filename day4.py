@@ -24,5 +24,8 @@ if(len(name)%2==0):
 else:
     no_list.remove(no_list[x])
     sr_list.remove(sr_list[y])
-print(no_list)
-print(sr_list)
+print("numbers list",no_list)
+
+print("string list",sr_list)
+print("Total Numbers",len(no_list))
+print("Total strings",len(sr_list))
